@@ -1,8 +1,6 @@
 const express = require("express");
-const { router: calculatorRouter } = require("./Routes/calculator.js");
-
 const app = express();
-const PORT = 6001;
+const PORT = process.env.PORT || 6001;
 
 // Middleware
 app.use(express.json());
