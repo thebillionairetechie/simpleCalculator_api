@@ -13,4 +13,4 @@ router.post("/subtract", subtract);
 router.post("/multiply", multiply);
 router.post("/divide", divide);
 
-module.exports = { router };
+module.exports = router;
